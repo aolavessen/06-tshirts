@@ -1,0 +1,67 @@
+.shop-item__btns {
+  display: flex;
+
+}
+
+.shop-btn {
+  display: flex;
+  justify-content: center;
+  width: 20%;
+  border-top: 0.2rem solid #3473b5;
+  border-right: 0.2rem solid #3473b5;
+  padding: .5rem;
+
+  &:last-of-type {
+    border-right: 0;
+  }
+}
+
+.dropdown {
+  &:hover {
+    position: relative;
+
+
+  }
+}
+
+.dropdown__options {
+  position: absolute;
+  right: 50%;
+  bottom: 100%;
+  width: 100%;
+  transform: translate(50%);
+  background: $brand-white;
+  text-align: center;
+
+}
+
+.dropdown__options-item {
+  border-top: 0.2rem solid #3473b5;
+  border-right: 0.2rem solid #3473b5;
+  border-left: 0.2rem solid #3473b5;
+  padding: .5rem;
+
+  &:last-of-type {
+    border-bottom: 0.2rem solid #3473b5;
+  }
+
+  &:hover {
+    font-size: 1.2rem;
+  }
+}
+
+.shirt-color--pink {
+  color: $pink;
+}
+
+.shirt-color--blue {
+  color: $blue;
+}
+
+.shirt-color--yellow {
+  color: $yellow;
+}
+
+.shirt-color--green {
+  color: $green;
+}
