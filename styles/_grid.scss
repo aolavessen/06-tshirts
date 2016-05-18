@@ -8,7 +8,8 @@
 .container {
 
   width: 75%;
-
+  max-width: 60rem;
+  margin: auto;
   overflow: auto;
 }
 
@@ -19,6 +20,7 @@
 
 .grid-item {
   flex-basis: (100% / 3);
+  flex-grow: 1;
   width: (100% / 3);
   max-width: $max-content-width;
   min-width: 25rem;
